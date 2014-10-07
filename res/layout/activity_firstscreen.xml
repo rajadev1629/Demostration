@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+	<Button
+		android:id="@+id/btn_one"
+		android:layout_width="150dp"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:text="Button_one"
+		android:textColor="@color/crimson_red" />
+	<Button
+		android:id="@+id/btn_two"
+		android:layout_width="150dp"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/btn_one"
+		android:layout_marginTop="10dp"
+		android:layout_centerHorizontal="true"
+		android:text="button2"
+		android:textColor="@color/crimson_red" />
+</RelativeLayout>
