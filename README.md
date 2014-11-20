@@ -61,7 +61,7 @@ Apart from this please change the way you are making the call to register for GC
 
 
 
-####Configure SDK settings in the AndriodManifest.xml file.
+####Configure SDK settings in the Your project's AndroidManifest.xml file.
 
 After adding the JARs into your project, modify your AndroidManifest.xml file using these steps:
 
