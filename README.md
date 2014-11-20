@@ -4,7 +4,7 @@
 [Uninstall SDK (http://uninstall.io)](http://uninstall.io) helps you to understand the reasons for your app uninstalls, reduce the uninstall rate using a powerful predictive engine and also get app Re-installs through a unique actionable channel (2.3.3 and above). 
 
 This guide will provide you step by step details on how to integrate the SDK in just a few minutes. Following steps outline the integration process in details.
-s
+
 
 ### Steps to integrate the sdk to your Android project.
 
@@ -14,7 +14,7 @@ s
 4. [Configure SDK settings in the Your project's AndroidManifest.xml file.](#configure-sdk-settings-in-the-your-projects-androidmanifestxml-file)
 5. [Initialize the SDK in the MainActivity class.](#initialize-the-sdk-in-the-mainactivity-class)
 6. [Passing Information to SDK.](#passing-information-to-sdk)      
-   -a) [Unique System User ID and Email ID.](#unique-system-user-id-and-email-id)      
+  -a) [Unique System User ID and Email ID.](#unique-system-user-id-and-email-id)         
     b) [Install Source.](#install-source)     
     c) [App Events.](#app-events)      
     d) [Crash Events.](#crash-events)     
