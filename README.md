@@ -10,7 +10,7 @@ This guide will provide you step by step details on how to integrate the SDK in 
 
 1. [Clone the github repository or download the zipped file\.](#setup)
 2. [Add SDK jar files to libs folder\.](#add-sdk-jar-files-to-libs-folder)
-3. [Set the SDK “Token and Secret” in Your project's string.xml file.](#set-the-sdk-token-and-secret-in-your-projects-string-xml-file)
+3. [Set the SDK “Token and Secret” in Your project's string.xml file.](#set-the-sdk-token-and-secret-in-your-projects-stringxml-file)
 4. [Configure SDK settings in the Your project's AndroidManifest.xml file.](#configure-sdk-settings-in-the-your-projects-androidmanifestxml)
 5. [Initialize the SDK - In the main activity class.](#initialize-the-sdk-in-the-main-activity-class)
 6. [Passing Information to SDK.](#passing-information-to-sdk)      
