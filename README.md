@@ -10,7 +10,7 @@ This guide will provide you step by step details on how to integrate the SDK in 
 
 1. [Clone the github repository or download the zipped file\.](#setup)
 2. [Add SDK jar files to libs folder\.](#add-sdk-jar-files-to-libs-folder)
-3. [Set the SDK “Token and Secret” in Your project's string.xml file.](#set-the-sdk-token-and-secret-in-your-project-s-string-xml-file)
+3. [Set the SDK “Token and Secret” in Your project's string.xml file.](#set-the-sdk-token-and-secret-in-your-projects-string-xml-file)
 4. Configure SDK settings in the Your project's AndroidManifest.xml file.
 5. Initialize the SDK - In the main activity class.
 6. Passing Information to SDK.      
@@ -42,7 +42,7 @@ are using Eclipse then you could use the following steps if you are unfamiliar w
 Copy **NotiphiSDK.jar**, **android-async-http-1.4.3.jar** and **gcm.jar** the jar file from jars directory and paste it into libs directory of your project.
 
 
-####Set the SDK “Token and Secret” in string.xml file.
+####Set the SDK “Token and Secret” in Your project's string.xml file.
 
 Go to your project's root folder and open res folder. Then open values folder. Here you should find strings.xml file. Add the following line to it.
 The app_token and app_secret is provided by us on registration of your app with us. As of now there is no online process and you need to contact us at dev-support@notiphi.com to get these.
