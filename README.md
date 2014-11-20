@@ -4,7 +4,7 @@
 [Uninstall SDK (http://uninstall.io)](http://uninstall.io) helps you to understand the reasons for your app uninstalls, reduce the uninstall rate using a powerful predictive engine and also get app Re-installs through a unique actionable channel (2.3.3 and above). 
 
 This guide will provide you step by step details on how to integrate the SDK in just a few minutes. Following steps outline the integration process in details.
-
+s
 
 ### Steps to integrate the sdk to your Android project.
 
