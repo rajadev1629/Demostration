@@ -12,7 +12,7 @@ This guide will provide you step by step details on how to integrate the SDK in 
 2. [Add SDK jar files to libs folder\.](#add-sdk-jar-files-to-libs-folder)
 3. [Set the SDK “Token and Secret” in Your project's string.xml file.](#set-the-sdk-token-and-secret-in-your-projects-stringxml-file)
 4. [Configure SDK settings in the Your project's AndroidManifest.xml file.](#configure-sdk-settings-in-the-your-projects-androidmanifestxml-file)
-5. [Initialize the SDK - In the MainActivity class.](#initialize-the-sdk-in-the-mainactivity-class)
+5. [Initialize the SDK in the MainActivity class.](#initialize-the-sdk-in-the-mainactivity-class)
 6. [Passing Information to SDK.](#passing-information-to-sdk)      
     a) [Unique System User ID and Email ID.](#unique-system-user-id-and-email-id)      
     b) [Install Source.](#install-source)     
@@ -136,7 +136,7 @@ After adding the JARs into your project, modify your AndroidManifest.xml file us
      <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
 ```
 
-####Initialize the SDK - In the MainActivity class.
+####Initialize the SDK In the MainActivity class.
 
 After the configuration changes, in your main Activity of your application  add this import statement
 
