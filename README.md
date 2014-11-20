@@ -14,7 +14,7 @@ s
 4. [Configure SDK settings in the Your project's AndroidManifest.xml file.](#configure-sdk-settings-in-the-your-projects-androidmanifestxml-file)
 5. [Initialize the SDK in the MainActivity class.](#initialize-the-sdk-in-the-mainactivity-class)
 6. [Passing Information to SDK.](#passing-information-to-sdk)      
-    a) [Unique System User ID and Email ID.](#unique-system-user-id-and-email-id)      
+----a) [Unique System User ID and Email ID.](#unique-system-user-id-and-email-id)      
     b) [Install Source.](#install-source)     
     c) [App Events.](#app-events)      
     d) [Crash Events.](#crash-events)     
