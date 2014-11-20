@@ -11,13 +11,13 @@ This guide will provide you step by step details on how to integrate the SDK in 
 1. [Clone the github repository or download the zipped file\.](#setup)
 2. [Add SDK jar files to libs folder\.](#add-sdk-jar-files-to-libs-folder)
 3. [Set the SDK “Token and Secret” in Your project's string.xml file.](#set-the-sdk-token-and-secret-in-your-projects-string-xml-file)
-4. Configure SDK settings in the Your project's AndroidManifest.xml file.
-5. Initialize the SDK - In the main activity class.
-6. Passing Information to SDK.      
-    a) Unique System User ID and Email ID.      
-    b) Install Source.     
-    c) App Events.      
-    d) Crash Events.     
+4. [Configure SDK settings in the Your project's AndroidManifest.xml file.](#configure-sdk-settings-in-the-your-projects-androidmanifestxml)
+5. [Initialize the SDK - In the main activity class.](#initialize-the-sdk-in-the-main-activity-class)
+6. [Passing Information to SDK.](#passing-information-to-sdk)      
+    a) [Unique System User ID and Email ID.](#unique-system-user-id-and-email-id)      
+    b) [Install Source.](#install-source)     
+    c) [App Events.](#app-events)      
+    d) [Crash Events.](#crash-events)     
 
 ####Setup
 
@@ -152,9 +152,9 @@ NotiphiSession.init(context,1);
 ```
 
 
-#### Passing Information from App to SDK
+#### Passing Information to SDK.
 
-##### 1) Business Unique User ID and Email ID: 
+##### 1) Unique System User ID and Email ID.
 Pass the Unique User ID assigned by your backend system to our SDK. Also pass the email (if available) to our SDK. This data will be used to synchronize the ID’s between our systems and also to take relevant actions. This information has to be passed only once in the lifetime of the app and not everytime. Please refer code snippet below to do the same. 
 
 ```
