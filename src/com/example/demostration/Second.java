@@ -9,6 +9,8 @@ public class Second extends Activity{
 		super.onCreate(savedInstanceState);
 		
 		//Add some more comment
+		
+		//Add 2nd comment
 	}
 
 }
